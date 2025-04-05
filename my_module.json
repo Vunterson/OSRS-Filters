@@ -2,7 +2,7 @@
     "name": "Hide Items",
     "subtitle": "Hides all items",
     "description": "My first module, its not much but it's mine",
-    "rs2fPath": "./Gerbil Filtersrs2f",
+    "rs2fPath": "./Gerbil Filters.rs2f",
     "inputs": [
         {
             "type": "boolean",
