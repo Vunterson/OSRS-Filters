@@ -1,0 +1,2 @@
+#define VAR_SHOW_ITEMS
+hidden=VAR_SHOW_ITEMS;
