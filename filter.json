@@ -1,5 +1,5 @@
 {
     "name": "My Filter",
     "description": "My first filter",
-    "modules": []
+    "modules": [{ "modulePath": "my_module.json" }]
 }
