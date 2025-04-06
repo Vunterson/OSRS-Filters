@@ -1,4 +1,4 @@
 #define VAR_SHOW_ITEMS
-apply (name:VAR_SHOW_ITEMS) {
-    hidden = true;
+apply (true) {
+    hidden=VAR_SHOW_ITEMS;
 }
