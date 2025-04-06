@@ -1,0 +1,17 @@
+//Wrong Code
+
+meta { name = "My Filter"; }
+#define VAR_SHOW_ITEMS true
+apply (name:VAR_SHOW_ITEMS) {
+    hidden = true;
+}
+
+//Right Code
+
+meta { name = "My Filter"; }
+#define VAR_SHOW_ITEMS true
+apply (true) {
+    hidden=VAR_SHOW_ITEMS;
+}
+
+//
